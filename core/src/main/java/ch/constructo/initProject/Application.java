@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.stream.Stream;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class Application {
 
   public static void main(String[] args) {
@@ -15,12 +15,13 @@ public class Application {
   }
 
   @Bean
-  CommandLineRunner init(UserRepository userRepository){
+  CommandLineRunner init(BenutzerRepository benutzerRepository){
     return args -> {
       Stream.of("John", "Jenny", "Jennifer", "Helene", "Rachel").forEach(name -> {
-        User user = new User(2L, name, name.toLowerCase() + "@domain.ch");
-        userRepository.save(user);
-        userRepository.findAll().forEach(System.out::println);
+        Benutzer benutzer = new Benutzer(2L, name, name.toLowerCase() + "@domain.ch");
+        benutzer.setPassword("admin");
+        benutzerRepository.save(benutzer);
+        benutzerRepository.findAll().forEach(System.out::println);
       });
     };
   }

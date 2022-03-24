@@ -1,5 +1,9 @@
-package ch.constructo.initProject;
+package ch.constructo.controller;
 
+import ch.constructo.entity.User;
+import ch.constructo.initProject.Benutzer;
+import ch.constructo.initProject.BenutzerRepository;
+import ch.constructo.repository.UserRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -9,6 +13,7 @@ import java.util.List;
 public class UserController {
 
   private final UserRepository userRepository;
+
 
   public UserController(UserRepository userRepository) {
     this.userRepository = userRepository;
