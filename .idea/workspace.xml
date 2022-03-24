@@ -5,18 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/sercive/user-service.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/sercive/user-service.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/user.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constructo_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/initProject/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +60,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -51,15 +80,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/agularclient/node_modules/typescript/lib" />
   </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -89,8 +124,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647880073874</updated>
-      <workItem from="1647880077709" duration="2030000" />
+      <workItem from="1647880077709" duration="2935000" />
+      <workItem from="1647934141904" duration="6466000" />
     </task>
+    <task id="LOCAL-00001" summary="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)">
+      <created>1647883023062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647883023062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,9 +150,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)" />
+    <option name="LAST_COMMIT_MESSAGE" value="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
