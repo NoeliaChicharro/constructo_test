@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Stream;
 
 @SpringBootApplication
@@ -19,7 +18,7 @@ public class Application {
   CommandLineRunner init(UserRepository userRepository){
     return args -> {
       Stream.of("John", "Jenny", "Jennifer", "Helene", "Rachel").forEach(name -> {
-        User user = new User(1L, name, name.toLowerCase() + "@domain.ch");
+        User user = new User(2L, name, name.toLowerCase() + "@domain.ch");
         userRepository.save(user);
         userRepository.findAll().forEach(System.out::println);
       });
