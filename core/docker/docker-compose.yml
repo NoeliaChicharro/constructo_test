@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  sqlserver:
+    build: .
+    container_name: sqlServer
+    restart: always
+    environment:
+      - "ACCEPT_EULA=Y"
+      - "SA_PASSWORD=Constructo5"
+      - "MSSQL_PID=Developer"
+      - "MSSQL_BACKUP_DIR=/var/opt/mssql/backup"
+    ports:
+      - "1433:1433"
+#    volumes:
+#      - /mnt/devSql1:/var/opt/mssql
