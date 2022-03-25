@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/docker/bin/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/docker/bin/docker-entrypoint_initdb.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/docker/db/01_setupDatabase.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/docker/docker-compose.yml" afterDir="false" />
+    <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="prepare docker">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/GarmentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Garment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/enums/GarmentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/repository/GarmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -32,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="initProject" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1647880073874</updated>
       <workItem from="1647880077709" duration="2935000" />
-      <workItem from="1647934141904" duration="12776000" />
+      <workItem from="1647934141904" duration="13525000" />
+      <workItem from="1648193471779" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)">
       <created>1647883023062</created>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648131478686</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prepare docker">
+      <created>1648137836411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648137836411</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +159,8 @@
     <MESSAGE value="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)" />
     <MESSAGE value="CN-18: Create Angular Frontend Base&#10;&#10;* Import angular base project&#10;* Create runnable Application (with two pages, list(get), and form(post))" />
     <MESSAGE value="CN-22: Create Base for tool&#10;&#10;* Add User" />
-    <option name="LAST_COMMIT_MESSAGE" value="CN-22: Create Base for tool&#10;&#10;* Add User" />
+    <MESSAGE value="prepare docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare docker" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />

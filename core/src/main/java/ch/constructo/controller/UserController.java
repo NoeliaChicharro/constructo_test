@@ -1,8 +1,6 @@
 package ch.constructo.controller;
 
 import ch.constructo.entity.User;
-import ch.constructo.initProject.Benutzer;
-import ch.constructo.initProject.BenutzerRepository;
 import ch.constructo.repository.UserRepository;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +19,7 @@ public class UserController {
 
   @GetMapping("/users")
   public List<User> getUsers(){
-    return (List<User>) userRepository.findAll();
+    return userRepository.findAll();
   }
 
   @PostMapping("/users")
