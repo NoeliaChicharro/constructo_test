@@ -51,5 +51,3 @@ N
 core/docker/docker-compose.yml,f/f/ff59ce9f94beecd65641c6348d4d149ee4c2097a
 F
 core/docker/Dockerfile,e/8/e8a48cf1af5dec0bd5cb8871574dc35144c2bf21
-<
-core/pom.xml,7/6/76401d80919958a0380f14132adf8b8fc9c3d6ea

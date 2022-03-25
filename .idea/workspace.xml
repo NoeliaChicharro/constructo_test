@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="prepare docker">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/GarmentsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Garment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/enums/GarmentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/repository/GarmentRepository.java" afterDir="false" />
+    <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/repository/ImageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Garment.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Garment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -61,11 +62,21 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/agularclient/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch.constructo.controller" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Application " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
@@ -99,7 +110,7 @@
       <updated>1647880073874</updated>
       <workItem from="1647880077709" duration="2935000" />
       <workItem from="1647934141904" duration="13525000" />
-      <workItem from="1648193471779" duration="1112000" />
+      <workItem from="1648193471779" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)">
       <created>1647883023062</created>
@@ -136,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648137836411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CN-22: Base for real Tool&#10;&#10;* Create Garments Entity with Repo and Controller">
+      <created>1648194684744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648194684744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +178,8 @@
     <MESSAGE value="CN-18: Create Angular Frontend Base&#10;&#10;* Import angular base project&#10;* Create runnable Application (with two pages, list(get), and form(post))" />
     <MESSAGE value="CN-22: Create Base for tool&#10;&#10;* Add User" />
     <MESSAGE value="prepare docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepare docker" />
+    <MESSAGE value="CN-22: Base for real Tool&#10;&#10;* Create Garments Entity with Repo and Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="CN-22: Base for real Tool&#10;&#10;* Create Garments Entity with Repo and Controller" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />

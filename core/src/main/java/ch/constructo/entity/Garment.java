@@ -4,6 +4,7 @@ import ch.constructo.enums.GarmentType;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Garment extends AbstractEntity implements Cloneable{
@@ -21,6 +22,9 @@ public class Garment extends AbstractEntity implements Cloneable{
   @NotNull
   private Boolean completed;
 
+  @OneToMany
+  private List<Image> images;
+
   @Column(length = 20000000)
   private byte[] flatImage;
 
@@ -35,11 +39,11 @@ public class Garment extends AbstractEntity implements Cloneable{
     this.user = user;
   }
 
-  public GarmentType getPatternType() {
+  public GarmentType getGarmentType() {
     return garmentType;
   }
 
-  public void setPatternType(GarmentType garmentType) {
+  public void setGarmentType(GarmentType garmentType) {
     this.garmentType = garmentType;
   }
 
@@ -57,6 +61,14 @@ public class Garment extends AbstractEntity implements Cloneable{
 
   public void setCompleted(Boolean completed) {
     this.completed = completed;
+  }
+
+  public List<Image> getImages() {
+    return images;
+  }
+
+  public void setImages(List<Image> images) {
+    this.images = images;
   }
 
   public byte[] getFlatImage() {
