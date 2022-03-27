@@ -1,8 +1,6 @@
 
 L
 .idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 m
 =frontend/agularclient/src/app/sercive/user-service.service.ts,1/6/1636c8d136bb326c1c42d829e08f6821e2599234
 `
@@ -39,15 +37,5 @@ t
 Dcore/src/main/java/ch/constructo/initProject/BenutzerController.java,e/1/e155a6bbee4d4cd1ede9c74fed3e8e32522b6ff4
 t
 Dcore/src/main/java/ch/constructo/initProject/BenutzerRepository.java,3/c/3ce63aca9f1355677c639b5950515db7a961d82b
-a
-1core/src/main/java/ch/constructo/Application.java,b/c/bc007c40a4876f11070e98a2a61a24ada17d9b37
 T
 $core/docker/bin/docker-entrypoint.sh,2/f/2f2a079476950e09c90fbc4abc3eca2d9731d51c
-[
-+core/docker/bin/docker-entrypoint_initdb.sh,e/e/ee301887338218677d009714f609ca3300556837
-S
-#core/docker/db/01_setupDatabase.sql,6/c/6c890fd1c507be1fcc9e2ac2d1d668902bdc32f0
-N
-core/docker/docker-compose.yml,f/f/ff59ce9f94beecd65641c6348d4d149ee4c2097a
-F
-core/docker/Dockerfile,e/8/e8a48cf1af5dec0bd5cb8871574dc35144c2bf21

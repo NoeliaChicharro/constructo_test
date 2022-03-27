@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
 RUN mkdir /docker-entrypoint-initdb.d
 
-COPY sql/*.sql /docker-entrypoint-initdb.d/
+COPY bin/*.sh /docker-entrypoint-initdb.d/
 
 VOLUME /docker-entrypoint-initdb.d
 EXPOSE 1433

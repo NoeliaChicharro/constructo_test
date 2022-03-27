@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/controller/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/ch/constructo/controller/user/TestUserInMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/core/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/docker/bin/docker-entrypoint_initdb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/core/docker/bin/docker-entrypoint-initdb.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core/docker/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Garment.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ch/constructo/entity/Garment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <recent name="ch.constructo.controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker: Compose Deployment">
     <configuration name="Application " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="backend" />
       <extension name="coverage">
@@ -94,8 +95,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="core/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="core/docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker/Dockerfile" />
+      <item itemvalue="Spring Boot.Application " />
+      <item itemvalue="Docker.docker: Compose Deployment" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker: Compose Deployment" />
+        <item itemvalue="Docker.docker/Dockerfile" />
         <item itemvalue="Spring Boot.Application " />
       </list>
     </recent_temporary>
@@ -110,7 +136,7 @@
       <updated>1647880073874</updated>
       <workItem from="1647880077709" duration="2935000" />
       <workItem from="1647934141904" duration="13525000" />
-      <workItem from="1648193471779" duration="2441000" />
+      <workItem from="1648193471779" duration="6710000" />
     </task>
     <task id="LOCAL-00001" summary="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)">
       <created>1647883023062</created>
@@ -154,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648194684744</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CN-22: Base for real Tool&#10;&#10;* create image entity and link with garment">
+      <created>1648195943206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648195943206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +212,8 @@
     <MESSAGE value="CN-22: Create Base for tool&#10;&#10;* Add User" />
     <MESSAGE value="prepare docker" />
     <MESSAGE value="CN-22: Base for real Tool&#10;&#10;* Create Garments Entity with Repo and Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="CN-22: Base for real Tool&#10;&#10;* Create Garments Entity with Repo and Controller" />
+    <MESSAGE value="CN-22: Base for real Tool&#10;&#10;* create image entity and link with garment" />
+    <option name="LAST_COMMIT_MESSAGE" value="CN-22: Base for real Tool&#10;&#10;* create image entity and link with garment" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
