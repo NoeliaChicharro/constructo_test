@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/ch/constructo/controller/user/TestUserInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/core/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/docker/bin/docker-entrypoint_initdb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/core/docker/bin/docker-entrypoint-initdb.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core/docker/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ch/constructo/controller/user/TestUserInMemory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -75,11 +73,45 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.constructo" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ch.constructo.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker: Compose Deployment">
+  <component name="RunManager" selected="JUnit.TestUserInMemory">
+    <configuration name="TestUserInMemory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.constructo.controller.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.constructo.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="ch.constructo.controller.user.TestUserInMemory" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserInMemory.testFindUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.constructo.controller.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.constructo.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="ch.constructo.controller.user.TestUserInMemory" />
+      <option name="METHOD_NAME" value="testFindUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="backend" />
       <extension name="coverage">
@@ -117,9 +149,13 @@
       <item itemvalue="Docker.docker/Dockerfile" />
       <item itemvalue="Spring Boot.Application " />
       <item itemvalue="Docker.docker: Compose Deployment" />
+      <item itemvalue="JUnit.TestUserInMemory" />
+      <item itemvalue="JUnit.TestUserInMemory.testFindUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUserInMemory" />
+        <item itemvalue="JUnit.TestUserInMemory.testFindUser" />
         <item itemvalue="Docker.docker: Compose Deployment" />
         <item itemvalue="Docker.docker/Dockerfile" />
         <item itemvalue="Spring Boot.Application " />
@@ -136,7 +172,7 @@
       <updated>1647880073874</updated>
       <workItem from="1647880077709" duration="2935000" />
       <workItem from="1647934141904" duration="13525000" />
-      <workItem from="1648193471779" duration="6710000" />
+      <workItem from="1648193471779" duration="9474000" />
     </task>
     <task id="LOCAL-00001" summary="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)">
       <created>1647883023062</created>
@@ -187,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648195943206</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CN-22: Base for real Tool&#10;&#10;* docker and db setup">
+      <created>1648380695895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648380695895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +256,8 @@
     <MESSAGE value="prepare docker" />
     <MESSAGE value="CN-22: Base for real Tool&#10;&#10;* Create Garments Entity with Repo and Controller" />
     <MESSAGE value="CN-22: Base for real Tool&#10;&#10;* create image entity and link with garment" />
-    <option name="LAST_COMMIT_MESSAGE" value="CN-22: Base for real Tool&#10;&#10;* create image entity and link with garment" />
+    <MESSAGE value="CN-22: Base for real Tool&#10;&#10;* docker and db setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="CN-22: Base for real Tool&#10;&#10;* docker and db setup" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
