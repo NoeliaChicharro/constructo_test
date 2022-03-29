@@ -1,14 +1,10 @@
 
 L
 .idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
-m
-=frontend/agularclient/src/app/sercive/user-service.service.ts,1/6/1636c8d136bb326c1c42d829e08f6821e2599234
 @
 frontend/pom.xml,d/6/d6193ec3edfd8c416bb7a1164257c50166469ff6
 p
 @frontend/agularclient/src/app/user-form/user-form.component.html,f/3/f3c166ebd52541089b54368bf9edd52ed90a5f81
-U
-%frontend/agularclient/src/app/user.ts,1/d/1dc8501335d3ff97590345d942c91488278b97ce
 p
 @frontend/agularclient/src/app/user-form/user-form.component.scss,4/3/43694ee98883b0bf2c562612c062c8efa2b4978b
 k

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {User} from "../user";
+import {User} from "../class/user";
 import {ActivatedRoute, Router} from "@angular/router";
 import {UserServiceService} from "../sercive/user-service.service";
 import {FormBuilder, FormGroup} from "@angular/forms";

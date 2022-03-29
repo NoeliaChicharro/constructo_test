@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c1be704-a504-4716-ab23-4ca8c03457a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/class/garment.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/class/garment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/class/image.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/class/image.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/class/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/1636c8d136bb326c1c42d829e08f6821e2599234" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dc8501335d3ff97590345d942c91488278b97ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/ewp/ewp.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/ewp/ewp.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/ewp/ewp.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/ewp/ewp.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/ewp/ewp.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/ewp/ewp.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/nav/nav.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/nav/nav.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/sercive/user-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/sercive/user-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/user-form/user-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/user-form/user-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/user-list/user-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/user-list/user-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/user-list/user-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/user-list/user-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/user.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/agularclient/src/app/class/user.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/agularclient/src/app/user.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +85,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/agularclient/src/app/class" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ch.constructo" />
@@ -180,7 +189,7 @@
       <workItem from="1647880077709" duration="2935000" />
       <workItem from="1647934141904" duration="13525000" />
       <workItem from="1648193471779" duration="10099000" />
-      <workItem from="1648538120326" duration="12693000" />
+      <workItem from="1648538120326" duration="13971000" />
     </task>
     <task id="LOCAL-00001" summary="CN-17: Create Spring Backend Base&#10;&#10;* Create an initProject package&#10;* Create runnable Application (with entity, repo, and controller)">
       <created>1647883023062</created>
@@ -273,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648553313949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CN-20: Angular UI&#10;&#10;* add differente views with sample content">
+      <created>1648555904437</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648555904437</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +319,8 @@
     <MESSAGE value="CN-11: Create DB&#10;&#10;* add tables with joins" />
     <MESSAGE value="CN-20: Angular UI&#10;&#10;* add grid for ewp view" />
     <MESSAGE value="CN-20: Angular UI&#10;&#10;* add navigation (only ui)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CN-20: Angular UI&#10;&#10;* add navigation (only ui)" />
+    <MESSAGE value="CN-20: Angular UI&#10;&#10;* add differente views with sample content" />
+    <option name="LAST_COMMIT_MESSAGE" value="CN-20: Angular UI&#10;&#10;* add differente views with sample content" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
