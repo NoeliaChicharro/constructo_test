@@ -23,7 +23,7 @@ import {MatSidenavModule} from "@angular/material/sidenav";
     UserListComponent,
     UserFormComponent,
     EwpComponent,
-    NavComponent
+    NavComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +36,7 @@ import {MatSidenavModule} from "@angular/material/sidenav";
     AgGridModule.withComponents([]),
     MatToolbarModule,
     MatIconModule,
+    MatSidenavModule,
     MatSidenavModule
 
   ],

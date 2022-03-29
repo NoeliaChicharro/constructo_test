@@ -4,10 +4,14 @@
 
 mat-toolbar{
   background-color: aquamarine;
+  position: fixed;
+  padding: 10px;
 }
 
 .button-icon{
   background: none;
 }
 
-
+#brand-in-nav{
+  cursor: pointer;
+}

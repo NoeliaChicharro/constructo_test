@@ -12,10 +12,13 @@ import {AgGridAngular} from "ag-grid-angular";
 export class EwpComponent implements OnInit {
   @ViewChild('agGrid') agGrid!: AgGridAngular;
 
+  title = "Blusen";
+
   columnDefs: ColDef[] = [
     {field: "make", sortable: true, filter: true, checkboxSelection: true},
     {field: "model", sortable: true, filter: true},
-    {field: "price", sortable: true, filter: true}
+    {field: "price", sortable: true, filter: true},
+    {field: "completed", sortable: true}
   ];
 
   rowData = new Observable<any[]>();
