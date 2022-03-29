@@ -12,13 +12,18 @@ import { EwpComponent } from './ewp/ewp.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {AgGridModule} from "ag-grid-angular";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import { NavComponent } from './nav/nav.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatSidenavModule} from "@angular/material/sidenav";
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
     UserFormComponent,
-    EwpComponent
+    EwpComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +33,10 @@ import {AgGridModule} from "ag-grid-angular";
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    AgGridModule.withComponents([])
+    AgGridModule.withComponents([]),
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule
 
   ],
   providers: [UserServiceService],
