@@ -8,19 +8,28 @@ import { UserFormComponent } from './user-form/user-form.component';
 import {UserServiceService} from "./sercive/user-service.service";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { EwpComponent } from './ewp/ewp.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from "@angular/material/button";
+import {AgGridModule} from "ag-grid-angular";
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    UserFormComponent
+    UserFormComponent,
+    EwpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    AgGridModule.withComponents([])
+
   ],
   providers: [UserServiceService],
   bootstrap: [AppComponent]

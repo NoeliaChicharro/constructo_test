@@ -3,24 +3,8 @@ L
 .idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
 m
 =frontend/agularclient/src/app/sercive/user-service.service.ts,1/6/1636c8d136bb326c1c42d829e08f6821e2599234
-`
-0frontend/agularclient/src/app/app.component.html,9/4/94610e09106491a7839ff6f07fbfec2a008a892c
-^
-.frontend/agularclient/src/app/app.component.ts,7/f/7f38a13442af7e2b107ae8180899fb1223171403
-[
-+frontend/agularclient/src/app/app.module.ts,b/a/ba22d2e2f5d9124e8c4023b2e67fa034cef7766f
-c
-3frontend/agularclient/src/app/app-routing.module.ts,b/9/b9ffd2f47ddcbb4a402e708f25c1d0e444f5222e
-T
-$frontend/agularclient/src/index.html,f/4/f402252ab9c93617a9e772d8614cb61e82a1705a
 @
 frontend/pom.xml,d/6/d6193ec3edfd8c416bb7a1164257c50166469ff6
-n
->frontend/agularclient/src/app/user-form/user-form.component.ts,5/9/59c886cedc48b18e8f972091370e02f36e70f199
-p
-@frontend/agularclient/src/app/user-list/user-list.component.html,c/9/c9ab7cae21ea78948d955cc7eac64875493a0791
-n
->frontend/agularclient/src/app/user-list/user-list.component.ts,e/e/eeea0d7b0777462c4363511d4ddc363bb3dcba1f
 p
 @frontend/agularclient/src/app/user-form/user-form.component.html,f/3/f3c166ebd52541089b54368bf9edd52ed90a5f81
 U
