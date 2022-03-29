@@ -10,7 +10,6 @@ public class User extends AbstractEntity implements Cloneable{
   @NotNull
   private String firstName = "";
 
-  @NotNull
   private String lastName = "";
 
   @NotNull

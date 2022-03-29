@@ -1,0 +1,6 @@
+
+N
+java:S1602",Remove useless curly braces around statement(Ø”œõýÿÿÿÿ8Ú¢ˆÙû/
+v
+java:S1128"YRemove this unused import 'org.springframework.boot.autoconfigure.SpringBootApplication'.(Ë”ÖÏ8ªÛœâû/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï˜Êçúÿÿÿÿ8Þ¢ˆÙû/

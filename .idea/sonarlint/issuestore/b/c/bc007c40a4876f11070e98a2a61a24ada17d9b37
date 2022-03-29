@@ -1,0 +1,10 @@
+
+N
+java:S1602",Remove useless curly braces around statement(Ø”œõıÿÿÿÿ8¾´ âû/
+T	java:S106""9Replace this use of System.out or System.err by a logger.(¬ÌÊ8ï¡™âû/
+\
+java:S1128"?Remove this unused import 'ch.constructo.initProject.Benutzer'.(æÁ­¨8Á´ âû/
+k
+java:S1128"IRemove this unused import 'ch.constructo.initProject.BenutzerRepository'.(ÄéÔåúÿÿÿÿ8Á´ âû/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Á´ âû/
