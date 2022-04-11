@@ -3,6 +3,10 @@ import {ColDef} from "ag-grid-community";
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {AgGridAngular} from "ag-grid-angular";
+import {Garment} from "../class/garment";
+import {GarmentService} from "../sercive/garment.service";
+import {UserServiceService} from "../sercive/user-service.service";
+import {User} from "../class/user";
 
 @Component({
   selector: 'app-ewp',
@@ -12,30 +16,14 @@ import {AgGridAngular} from "ag-grid-angular";
 export class EwpComponent implements OnInit {
   @ViewChild('agGrid') agGrid!: AgGridAngular;
 
+  garments?: Garment[];
   title = "Blusen";
 
-  columnDefs: ColDef[] = [
-    {field: "make", sortable: true, filter: true, checkboxSelection: true},
-    {field: "model", sortable: true, filter: true},
-    {field: "price", sortable: true, filter: true},
-    {field: "completed", sortable: true}
-  ];
-
-  rowData = new Observable<any[]>();
-
-  constructor(private http: HttpClient) {
-    this.rowData = this.http.get<any[]>('https://www.ag-grid.com/example-assets/small-row-data.json');
-  }
+  constructor(private garmentService: GarmentService) { }
 
   ngOnInit(): void {
+    this.garmentService.findAll().subscribe(data => {
+      this.garments = data;
+    })
   }
-
-  getSelectedRows(): void{
-    const selectedNodes = this.agGrid.api.getSelectedNodes(); // api is undefined
-    const selectedData = selectedNodes.map(node => node.data);
-    const selectedDataStringPresentation = selectedData.map(node => `${node.make} ${node.model}`).join(", ");
-
-    alert(`Selected node: ${selectedDataStringPresentation}`);
-  }
-
 }
